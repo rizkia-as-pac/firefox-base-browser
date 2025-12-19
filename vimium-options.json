@@ -1,0 +1,14 @@
+{
+  "keyMappings": "unmapAll\n\nmap f LinkHints.activateMode\nmap F LinkHints.activateModeToOpenInNewTab\n\nmap <m-j> nextTab\nmap <m-k> previousTab\n\nmap <a-s> Vomnibar.activateTabSelection\nmap j scrollDown\nmap k scrollUp\nmap h scrollLeft\nmap l scrollRight\n\nmap gg scrollToTop\nmap G scrollToBottom\n\nmap i enterInsertMode\nmap v enterVisualMode\nmap gi focusInput\n\nmap / enterFindMode\nmap n performFind\nmap N performBackwardsFind",
+  "settingsVersion": "2.3.1",
+  "exclusionRules": [
+    {
+      "passKeys": "",
+      "pattern": "https?://mail.google.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://docs.google.com/*"
+    }
+  ]
+}
